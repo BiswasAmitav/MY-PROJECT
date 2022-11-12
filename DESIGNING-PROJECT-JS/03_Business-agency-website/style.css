@@ -158,3 +158,67 @@
   left: 100%;
 }
 /* End of Section 1 */
+
+
+
+/* NAVBAR */
+.navbar{
+  width: 100%;
+  height: 6rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  padding:2rem;
+}
+.logo{
+  position: absolute;
+  top:.75rem;
+  left:2.5rem;
+}
+.logo a{
+  font-family: "MADE Soulmaze",sans-serif;
+  font-size: 1.6rem;
+  color:#eee;
+  letter-spacing: 0.08rem;
+}
+.logo span{
+  font-family: "MADE Soulmaze",sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #9e0e0e;
+}
+.nav-list{
+  display: none;
+}
+/* END OF NAVBAR */
+
+
+
+/* MENU */
+.menu{
+  width: 3rem;
+  height: 3rem;
+  /* background-color: #eee; */
+  position:fixed;
+  top:1rem;
+  right: 3rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.line{
+  width: 100%;
+  height: 0.2rem;
+  background-color: #eee;
+  cursor: pointer;
+}
+.line-1{
+  width: 50%;
+}
+.line-3{
+  width: 50%;
+  margin-left: auto;
+}
+/* END OF MENU */
